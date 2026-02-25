@@ -1,0 +1,248 @@
+---
+const pageTitle = "The Golden Gear";
+---
+
+<html lang="en">
+  <head>
+    <title>{pageTitle}</title>
+  </head>
+      <body>
+         <header class="project-hero">
+                  <h1>{pageTitle}</h1>
+                  <div class="project-meta">
+                    <span><strong>Type:</strong> Video Game</span>
+                    <span><strong>Timeline:</strong> 4 months</span>
+                    <span><strong>Purpose:</strong> Skills USA</span>
+                  </div>
+                </header>
+
+                <section class="description-box">
+                    <p>
+                    This video game was made by me and a teammate for the SkillsUSA Interactive Application
+                    and Video Game development competition. It was made by a teammate and I in GameMaker Studio 2
+                    where they did the art and music while I programmed and designed the levels. The game won regionals
+                    which moved it to the state competition for California where it proceeded to win 1st place.
+                    This game was coded in GML and taught me how to work with a team effectively, use GitHub,
+                    create interesting level design, use collision circles for player interactions, and create simple enemy AI.
+                    </p>
+                </section>
+
+                <figure class="screenshot-card">
+                    <img src="/goldenGear/menuGG.png" alt="Menu" />
+                        <figcaption>
+                        The Golden Gear is a Steampunk Themed puzzle platformer that follows a narrative about the player
+                        on a quest to find the rare Golden Gear to finish crafting their time machine. The player goes through
+                        4 levels where they will need to interact with steam pipes and wheels to navigate the maze like locations.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/goldenGear/mapGG.png" alt="Map" />
+                        <figcaption>
+                        A map was added to show each level to enhance the
+                        idea of exploration and progress.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/goldenGear/level1GG.png" alt="Level 1" />
+                        <figcaption>
+                        Level 1 Showcase. This level is in the main character's workshop
+                        where the player can see the contraptions.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/goldenGear/level2GG.png" alt="Level 2" />
+                        <figcaption>
+                        Level 2 Showcase. Level 2 starts outside the workshop
+                        and opens into a large city of maze like pipe systems.
+                        </figcaption>
+                </figure>
+
+                <figure class="multi-image-card">
+                  <div class="image-group">
+                    <img src="/goldenGear/enemy1GG.png" alt="Level 3 Enemy 1" />
+                    <img src="/goldenGear/enemy2GG.png" alt="Level 3 Enemy 2" />
+                  </div>
+                        <figcaption>
+                        Level 3 Showcase. Level 3 occurs on the airship docks
+                        as the player proceeds to try and catch a ride on a flying boat
+                        . Enemies called Time Snatchers are
+                        introduced in the 3rd level. Contact with one will damage the
+                        player acting as an extra obstacle.
+                        </figcaption>
+                  </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/goldenGear/level4GG.png" alt="Level 4" />
+                        <figcaption>
+                        Level 4 Showcase. This level is on an airship and combines
+                        the different quirks of each level.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/goldenGear/hiddenGG.png" alt="Hidden Fairy" />
+                        <figcaption>
+                        Each level has a fairy which acts as a hidden collectable.
+                        This gives incentive for the player to revisit past levels
+                        and look closer.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/goldenGear/codeGG.png" alt="Code" />
+                        <figcaption>
+                        Code Showcase.
+                        </figcaption>
+                </figure>
+
+                    <footer class="bottom-nav">
+                        <a href="/" class="home-button">Home</a>
+                    </footer>
+      </body>
+</html>
+
+<style>
+.project-hero {
+    background-color: #3D2B1F;
+    border: 4px solid #D4AF37;
+    border-radius: 16px;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+  }
+
+.project-hero h1 {
+    color: #D4AF37;
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.project-meta {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #D4AF37;
+    font-size: 1.1rem;
+  }
+
+.project-meta span {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+
+.description-box {
+    background-color: #262626;
+    border: 4px solid #3f3f46;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #d1d5db;
+  }
+
+.description-box p {
+    margin-bottom: 15px;
+  }
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: arial;
+    background-color: #1a1a1a;
+    color: #f3f4f6;
+  }
+
+.screenshot-card {
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+
+.screenshot-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+
+.screenshot-card figcaption {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #D4AF37;
+  }
+
+.multi-image-card {
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+.image-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.image-group img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 48%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+figcaption {
+    margin-top: 15px;
+    text-align: center;
+    color: #D4AF37;
+    font-style: italic;
+  }
+
+.bottom-nav {
+    margin-top: 60px;
+    padding: 40px 0;
+    border-top: 1px solid #374151;
+    display: flex;
+    justify-content: center;
+  }
+
+a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.home-button {
+    display: inline-block;
+    background-color: #B87333;
+    color: white;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(184, 115, 51, 0.4);
+  }
+
+.home-button:hover {
+    background-color: #B87333;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(184, 115, 51, 0.6);
+  }
+</style>

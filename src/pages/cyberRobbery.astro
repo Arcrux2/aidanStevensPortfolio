@@ -1,0 +1,234 @@
+---
+const pageTitle = "Cyber Robbery";
+---
+
+<html lang="en">
+  <head>
+    <title>{pageTitle}</title>
+  </head>
+      <body>
+                <header class="project-hero">
+                  <h1>{pageTitle}</h1>
+                  <div class="project-meta">
+                    <span><strong>Type:</strong> Video Game/App</span>
+                    <span><strong>Timeline:</strong> 1 Week</span>
+                    <span><strong>Purpose:</strong> Congressional App Challenge</span>
+                  </div>
+                </header>
+
+                <section class="description-box">
+                    <p>
+                    Cyber Robbery was an App that works like an interactive clicker video game created to educate
+                    players on cyber security topics such as secure passwords, phishing and malware.
+                    It was made for the annual Congressional App Challenge where students from around the
+                    country compete to make an app to be displayed on the website of the White House. The app
+                    was coded in JavaScript with a teammate. This project taught me how make learning interactive,
+                    make a common structure for code with a teammate, and to manage large boolean expressions.
+                    </p>
+                </section>
+
+                <figure class="screenshot-card">
+                    <img src="/cyberRobbery/characterSelectionCR.png" alt="Character Selection" />
+                        <figcaption>
+                        Character selection is offered in the menu.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/cyberRobbery/storyCR.png" alt="Story" />
+                        <figcaption>
+                        The story starts with the players money being taken.
+                        They will then have to travel to different locations finding
+                        clues to the whereabouts of their money while learning cyber
+                         security topics. The gameplay loop consists of entering a location,
+                          clicking different clues and finding where one of three bosses
+                          are, and having their knowledge tested in form of a boss fight.
+                           Once a boss is defeated they lead the player to the next place.
+                           </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/cyberRobbery/mapCR.png" alt="Map" />
+                        <figcaption>
+                        The map's different locations appear as the player
+                        progresses.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/cyberRobbery/roomsCR.png" alt="Rooms" />
+                        <figcaption>
+                        This is what the two of the different rooms are like.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/cyberRobbery/cluesCR.png" alt="Clues" />
+                        <figcaption>
+                        These are some examples of clues the player may find.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/cyberRobbery/questionsCR.png" alt="Questions" />
+                        <figcaption>
+                        These are examples of questions that may be
+                        asked during boss fights. The answers to many are found in clues.
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/cyberRobbery/codeCR.png" alt="Code" />
+                        <figcaption>
+                        Code Showcase
+                        </figcaption>
+                </figure>
+
+                    <footer class="bottom-nav">
+                        <a href="/" class="home-button">Home</a>
+                    </footer>
+      </body>
+</html>
+
+<style>
+.project-hero {
+    background-color: #2DD4BF;
+    border: 4px solid #0EA5E9;
+    border-radius: 16px;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+  }
+
+.project-hero h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.project-meta {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+
+.project-meta span {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+
+.description-box {
+    background-color: #262626;
+    border: 4px solid #3f3f46;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #d1d5db;
+  }
+
+.description-box p {
+    margin-bottom: 15px;
+  }
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: arial;
+    background-color: #1a1a1a;
+    color: #f3f4f6;
+  }
+
+.screenshot-card {
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+
+.screenshot-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+
+.screenshot-card figcaption {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #2DD4BF;
+  }
+
+.multi-image-card {
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+.image-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.image-group img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 48%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+figcaption {
+    margin-top: 15px;
+    text-align: center;
+    color: #2DD4BF;
+    font-style: italic;
+  }
+
+.bottom-nav {
+    margin-top: 60px;
+    padding: 40px 0;
+    border-top: 1px solid #374151;
+    display: flex;
+    justify-content: center;
+  }
+
+a {
+    color: #2DD4BF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.home-button {
+    display: inline-block;
+    background-color: #0EA5E9;
+    color: white;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);
+  }
+
+.home-button:hover {
+    background-color: #0EA5E9;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.6);
+  }
+</style>

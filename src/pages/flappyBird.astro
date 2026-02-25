@@ -1,0 +1,187 @@
+---
+const pageTitle = "Flappy Bird Remake";
+---
+
+<html lang="en">
+  <head>
+    <title>{pageTitle}</title>
+  </head>
+      <body>
+         <header class="project-hero">
+                          <h1>{pageTitle}</h1>
+                          <div class="project-meta">
+                            <span><strong>Type:</strong> Video Game</span>
+                            <span><strong>Timeline:</strong> 1 day</span>
+                            <span><strong>Purpose:</strong> Free Time</span>
+                          </div>
+                        </header>
+
+                <section class="description-box">
+                    <p>
+                    This game was made as a quick challenge to see if I could remake the famous
+                    Flappy Bird game. It was fun and cemented my skills.
+                    </p>
+                </section>
+
+                <figure class="screenshot-card">
+                    <img src="/flappyBird/flappyBirdGameplay.png" alt="Flappy Bird Remake gameplay" />
+                        <figcaption>
+                        Gameplay
+                        </figcaption>
+                </figure>
+
+                <figure class="screenshot-card">
+                    <img src="/flappyBird/flappyBirdCode.png" alt="Flappy Bird Remake code" />
+                        <figcaption>
+                        Code
+                        </figcaption>
+                </figure>
+
+                    <footer class="bottom-nav">
+                        <a href="/" class="home-button">Home</a>
+                    </footer>
+      </body>
+</html>
+
+<style>
+.project-hero {
+    background-color: #B45309;
+    border: 4px solid #FACC15;
+    border-radius: 16px;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+  }
+
+.project-hero h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.project-meta {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+
+.project-meta span {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+
+.description-box {
+    background-color: #262626;
+    border: 4px solid #3f3f46;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #d1d5db;
+  }
+
+.description-box p {
+    margin-bottom: 15px;
+  }
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: arial;
+    background-color: #1a1a1a;
+    color: #f3f4f6;
+  }
+
+.screenshot-card {
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+
+.screenshot-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+
+.screenshot-card figcaption {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #FACC15;
+  }
+
+.multi-image-card {
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+.image-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.image-group img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 48%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+figcaption {
+    margin-top: 15px;
+    text-align: center;
+    color: #a7f3d0;
+    font-style: italic;
+  }
+
+.bottom-nav {
+    margin-top: 60px;
+    padding: 40px 0;
+    border-top: 1px solid #374151;
+    display: flex;
+    justify-content: center;
+  }
+
+a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.home-button {
+    display: inline-block;
+    background-color: #EA580C;
+    color: white;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(234, 88, 12, 0.4);
+  }
+
+.home-button:hover {
+    background-color: #EA580C;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(234, 88, 12, 0.6);
+  }
+</style>
