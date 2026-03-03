@@ -27,6 +27,12 @@ const pageTitle = "The Golden Gear";
                     </p>
                 </section>
 
+                <div class="play-area">
+                  <a href="https://arcrux2.github.io/theGoldenGear/" target="_blank" class="play-button">
+                    <span></span> Play The Golden Gear
+                  </a>
+                </div>
+
                 <figure class="screenshot-card">
                     <img src="/goldenGear/menuGG.png" alt="Menu" />
                         <figcaption>
@@ -152,6 +158,45 @@ const pageTitle = "The Golden Gear";
 .description-box p {
     margin-bottom: 15px;
   }
+
+  .play-area {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .play-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 15px;
+      background: linear-gradient(145deg, #D4AF37, #B87333);
+      color: #3D2B1F;
+      padding: 18px 40px;
+      font-size: 1.4rem;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-radius: 8px;
+      border: 2px solid #5C4033;
+
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.3), inset 0 2px 2px rgba(255, 255, 255, 0.4);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .play-button span {
+      font-size: 1.8rem;
+    }
+
+    .play-button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(145deg, #E5C05E, #D4AF37);
+      box-shadow: 0 0 30px rgba(212, 175, 55, 0.6);
+      cursor: pointer;
+    }
+
+    .play-button:active {
+      transform: scale(0.98);
+    }
 
 body {
     max-width: 800px;
