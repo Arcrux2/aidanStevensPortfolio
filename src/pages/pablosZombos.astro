@@ -27,6 +27,12 @@ const pageTitle = "Pablos Zombos";
                       </p>
                     </section>
 
+                    <div class="play-area">
+                      <a href="https://arcrux2.github.io/pablosZombos/" target="_blank" class="play-button">
+                        <span></span> Play Pablos Zombos
+                      </a>
+                    </div>
+
                 <figure class="screenshot-card">
                     <img src="/pablosZombos/menuPZ.png" alt="Menu" />
                       <figcaption>
@@ -183,6 +189,44 @@ const pageTitle = "Pablos Zombos";
 .description-box p {
     margin-bottom: 15px;
   }
+
+  .play-area {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .play-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 15px;
+      background: linear-gradient(145deg, #16a34a, #22c55e);
+      color: #052e16;
+      padding: 18px 40px;
+      font-size: 1.4rem;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-radius: 8px;
+      border: 2px solid #14532d;
+
+      box-shadow: 0 0 20px rgba(34, 197, 94, 0.4), inset 0 2px 2px rgba(255, 255, 255, 0.4);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .play-button span {
+      font-size: 1.8rem;
+    }
+
+    .play-button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(145deg, #22c55e, #4ade80);
+      box-shadow: 0 0 30px rgba(34, 197, 94, 0.8);
+      cursor: pointer;
+    }
+
+    .play-button:active {
+      transform: scale(0.98);
+      }
 
 body {
     max-width: 800px;
